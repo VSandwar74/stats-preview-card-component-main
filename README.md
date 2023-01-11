@@ -28,11 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot%202023-01-09%20at%204.34.14%20AM.png)
+![](./images/Screenshot%202023-01-11%20at%206.20.42%20PM.png)
+![](./images/Screenshot%202023-01-11%20at%206.21.26%20PM.png)
 ### Links
 
-- Solution URL: [My GitHub](https://github.com/VSandwar74/react-expenses-chart-component)
-- Live Site URL: [My Live Site!](https://calm-selkie-df3fec.netlify.app/)
+- Solution URL: [My GitHub](https://github.com/VSandwar74/stats-preview-card-component-main)
+- Live Site URL: [My Live Site!](https://moonlit-pony-1f5a6b.netlify.app/)
 
 ## My process
 
@@ -46,25 +47,19 @@ Users should be able to:
 
 ### What I learned
 
-This was my first self-paced project with React (non-native) and TailWindCSS!
 
-To see how you can add code snippets, see below:
+This was a simple exercise to warm up my skills with HTML and CSS again, and my first time using global CSS variables.
 
-This was my first deep dive into JS and JavaScript integration with events and event handlers, etc.
 
-```html
-    <div className={`rounded-sm sm:rounded-md px-4 sm:px-6 cursor-pointer w-[50px] ${(day != "wed") ? (`bg-[#EC755D] hover:bg-[#FE9B86]`) : (`bg-[#77B5BD] hover:bg-[#B5DEE5]`)}`} style={{height: `${amount/5}rem` }}></div>
+```css
+   :root {
+    background-color: hsl(233, 47%, 7%);
+    --card-bg: hsl(244, 38%, 16%);
+    --accent: hsl(277, 64%, 61%);
+    --paragraph-color: hsla(0, 0%, 100%, 0.75);
+    --stat-name-color: hsla(0, 0%, 100%, 0.6)
+}
 ```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Tailwind Group Hover](https://tailwindcss.com/docs/hover-focus-and-other-states) - When learning Tailwind, the docs were incredibly helpful and accessible and helped me learn group hover, a neat little feature.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
